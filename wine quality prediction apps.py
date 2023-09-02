@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 # loading the saved model
-loaded_model=pickle.load(open('C:/Users/kiru/Desktop/machine learing project/web pages/wine quality/wine_model.sav','rb'))
+loaded_model=pickle.load(open('./wine_model.sav','rb'))
 
 # creating a function for prediction
 def wine_prediction(input_data):
